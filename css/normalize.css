@@ -186,6 +186,7 @@
   button,
   select { /* 1 */
     text-transform: none;
+    margin-bottom: 5%;
   }
   
   /**
@@ -237,14 +238,16 @@
    *    `fieldset` elements in all browsers.
    */
   
-  legend {
+   legend {
     box-sizing: border-box; /* 1 */
     color: inherit; /* 2 */
     display: table; /* 1 */
     max-width: 100%; /* 1 */
     padding: 0; /* 3 */
     white-space: normal; /* 1 */
+    padding-bottom: 8%;
   }
+  
   
   /**
    * Add the correct vertical alignment in Chrome, Firefox, and Opera.
