@@ -1,4 +1,48 @@
 * {
     font-family: 'Merriweather', serif;  
     box-sizing: border-box;
+    
+}
+
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.1em;
+    font-weight: 900;
+}
+
+
+p {
+    line-height: 1.5em;
+}
+
+
+fieldset {
+    border: none;
+
+}
+
+
+
+
+
+
+.main-heading {
+color: white;
+background-color: #2F2F2F;
+text-align: center;
+padding: 10%;
+}
+
+.secondary-heading {
+    text-align: center;
+}
+
+.intro-statement {
+    border-bottom: #2F2F2F double 5px;
+    padding-bottom: 12%;
+    color: #606162;
 }
