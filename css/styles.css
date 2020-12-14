@@ -4,6 +4,12 @@
     
 }
 
+/*BASE ELEMENT STYLING*/
+
+
+body {
+   max-width: 100vh;
+}
 
 h1 {
     margin: 0;
@@ -17,6 +23,65 @@ h2 {
 
 p {
     line-height: 1.5em;
+}
+
+/*===========================END BASE ELEMENT STYLING===================================*/
+
+
+/*LAYOUT STYLING*/
+
+.main-heading {
+color: white;
+background-color: #2F2F2F;
+text-align: center;
+padding: 10%;
+}
+
+.secondary-heading {
+    text-align: center;
+}
+
+.intro-statement {
+    border-bottom: #2F2F2F double 5px;
+    padding-bottom: 12%;
+    color: #606162;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-bottom: 2px solid #2F2F2F
+}
+
+/*===========================END LAYOUT STYLING===================================*/
+
+
+/*FORM ELEMENT(S) STYLING*/
+
+.options {
+    padding-top: 5%;
+}
+
+
+input[type] {
+    padding-bottom: 5%;
+    margin-bottom: 5%;
+    border: none;
+    padding-top: 4%;
+}
+
+input::placeholder {
+    font-style: italic;
+    text-align: right;
+    font-size: 12px;
+    overflow: visible;
+    padding-right: 5%;
+    padding-top: 10%;
+}
+
+input:focus-visible {
+    outline: 1px solid #40739F;
 }
 
 
@@ -47,56 +112,4 @@ legend {
 
 }
 
-
-
-.main-heading {
-color: white;
-background-color: #2F2F2F;
-text-align: center;
-padding: 10%;
-}
-
-.secondary-heading {
-    text-align: center;
-}
-
-.intro-statement {
-    border-bottom: #2F2F2F double 5px;
-    padding-bottom: 12%;
-    color: #606162;
-}
-
-.contact-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    border-bottom: 2px solid #2F2F2F
-}
-
-
-.options {
-    padding-top: 5%;
-}
-
-
-
-
-input[type] {
-    padding-bottom: 5%;
-    margin-bottom: 5%;
-    border: none;
-    padding-top: 4%;
-}
-
-input::placeholder {
-    font-style: italic;
-    text-align: right;
-    font-size: 12px;
-    overflow: visible;
-    padding-right: 5%;
-    padding-top: 10%;
-}
-
-input:focus-visible {
-    outline: 1px solid #40739F;
-}
+/*===========================END FORM ELEMENT STYLING===================================*/
