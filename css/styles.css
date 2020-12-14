@@ -58,6 +58,14 @@ padding: 10%;
     padding-bottom: 5%;
 }
 
+footer p {
+    text-align: center;
+    color:  #606162;
+    font-style: italic;
+    font-size: small;
+    
+}
+
 /*===========================END LAYOUT STYLING===================================*/
 
 
@@ -107,8 +115,28 @@ input:focus-visible {
     outline: 1px solid #40739F;
 }
 
+textarea:focus-visible {
+    outline: 1px solid #40739F;
+}
+
 
 /*Button Styling*/
+
+.button-container {
+    text-align: center;
+    padding-top: 5%;
+}
+
+button {
+    padding: 10% 30%;
+    font-size: 120%;
+    background-color: rgba(63, 191, 127, 0.7);
+    border-radius: 8%;
+    color: white;
+    font-weight: bold;
+}
+
+/*===========================END BUTTON STYLING===================================*/
 
 
 fieldset {
