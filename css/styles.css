@@ -13,6 +13,7 @@ body {
 
 h1 {
     margin: 0;
+    text-transform: uppercase;
 }
 
 h2 {
@@ -52,6 +53,12 @@ padding: 10%;
     flex-direction: column;
     justify-content: space-evenly;
     border-bottom: 2px solid #2F2F2F
+}
+
+.contact-container input,
+select {
+    width: 100%;
+
 }
 
 .newsletter-container p{
@@ -160,6 +167,7 @@ legend {
 
 @media (min-width: 768px) {
 
+    /*BASE ELEMENT STYLING*/
     h2 {
         font-size: 1.5em;
     }
@@ -173,10 +181,63 @@ legend {
         padding-bottom: 2%;
     }
 
+/*===========================END BASE ELEMENT STYLING===================================*/
+
     
+    /*Div-Wrapper*/
+    
+    .div-wrapper {
+        display:flex;
+        flex-direction: row;
+        align-items: baseline;
+    }
+
+    .div-wrapper input{
+        flex: 4;
+    }
+  
+    .div-wrapper label {
+        flex: 1;
+    }
+
+    .div-wrapper select {
+        flex: 4;
+    }
+    
+    /*Div-Wrapper-z*/
+    
+    #zip {
+        flex: inherit;
 
     }
 
+  
+    .div-wrapper-z {
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
 
+
+    }
+    
+    .div-wrapper-z label {
+        padding-right: 12%;
+
+    }
+
+/*===========================END DIV-WRAPPER STYLING===================================*/
+
+
+    /*BUTTON STYLING*/
+    button {
+        padding: 6% 40%;
+
+    }
+
+/*===========================END BUTTON STYLING===================================*/
+
+/*===========================END MEDIA QUERY===================================*/
+
+}
 
 
