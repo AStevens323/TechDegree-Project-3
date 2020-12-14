@@ -173,21 +173,10 @@ legend {
         padding-bottom: 2%;
     }
 
-    .contact-container {
-        display: block;
+    
 
     }
 
-    input {
-        display: block;
-        width: 100%;
-    }
 
-    label {
-        display: inline-block;
-
-    }
-
-}
 
 
