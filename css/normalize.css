@@ -243,9 +243,9 @@ fieldset {
   color: inherit; /* 2 */
   display: table; /* 1 */
   max-width: 100%; /* 1 */
-  padding: 0; /* 3 */
+  /* padding: 0; */ /* 3 */
   white-space: normal; /* 1 */
-  padding-bottom: 8%;
+  /* padding-bottom: 8%; */
 }
 
 
