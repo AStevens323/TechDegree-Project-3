@@ -62,7 +62,7 @@ select {
 }
 
 .newsletter-container p{
-    padding-bottom: 5%;
+    padding-bottom: 10px;
 }
 
 footer p {
@@ -107,6 +107,7 @@ input[type] {
 #other-topics {
     width: 100%;
     height: 100px;
+    margin-top: 15px;
 }
 
 input::placeholder {
@@ -125,6 +126,11 @@ input:focus-visible {
 textarea:focus-visible {
     outline: 1px solid #40739F;
 }
+
+select:focus-visible {
+    outline: 1px solid #40739F;
+}
+
 
 /*Zip Code Wrapper*/
 
@@ -185,7 +191,7 @@ legend {
     }
 
     .secondary-heading {
-        padding-top: 10%;
+        padding-top: 50px;
     }
 
     legend {
@@ -233,7 +239,7 @@ legend {
     }
     
     .div-wrapper-z label {
-        padding-right: 10%;
+        padding-right: 89px;
     }
 
 /*===========================END DIV-WRAPPER STYLING===================================*/
@@ -241,8 +247,7 @@ legend {
 
     /*BUTTON STYLING*/
     button {
-        padding: 6% 40%;
-
+        padding: 4% 40%;
     }
 
 /*===========================END BUTTON STYLING===================================*/
